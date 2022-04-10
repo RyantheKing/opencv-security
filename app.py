@@ -153,7 +153,7 @@ class WebcamVideoStream:
 app = Flask(__name__)
 
 print("[INFO] sampling THREADED frames from webcam...")
-vs = WebcamVideoStream(src='rtsp://STREAM:Str3@ming@10.165.224.121:554/H264/ch1/main/av_stream').start()k 
+vs = WebcamVideoStream(src='rtsp://STREAM:Str3@ming@10.165.224.121:554/H264/ch1/main/av_stream').start()
 fps = FPS().start()
 time.sleep(5)
 
